@@ -1,11 +1,18 @@
 <!DOCTYPE html>
-<body>
-<script type="module">
-var user = 'wolfiex' // our username
-var nbk = 'pyobservable-example' // our notebook name
-async function run(){
-const apistr = `https://api.observablehq.com/@${user}/${nbk}.js?v=3`
-    const notebook = await import(apistr);
-    const define = notebook.default}
-run()
-</script>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Data Visualization</title>
+  </head>
+  <body>
+    <h1>Data Visualization with D3</h1>
+    <p>Embedded D3 from Observable</p>
+
+      <iframe width="100%" height="102" frameborder="0"
+  src="https://observablehq.com/embed/024295c31ca698ef?cells=viewof+y"></iframe>
+      
+      
+  </body>
+</html>
