@@ -1,18 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Data Visualization with D3</title>
-</head>
-  
 <body>
-  <p>Paragraph 1</p>
-  <p>Paragraph 2</p>
-
-  <script src="https://d3js.org/d3.v7.js>
-    d3.select("p").style("color", "firebrick")
-  </script>
-  
-
-  </body>
-</html>
+<script type="module">
+var user = 'wolfiex' // our username
+var nbk = 'pyobservable-example' // our notebook name
+async function run(){
+const apistr = `https://api.observablehq.com/@${user}/${nbk}.js?v=3`
+    const notebook = await import(apistr);
+    const define = notebook.default}
+run()
+</script>
